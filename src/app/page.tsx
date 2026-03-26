@@ -7,7 +7,9 @@ import { Navbar } from "@/components/Navbar";
 import { Opportunities } from "@/components/Opportunities";
 import { SocialProofBar } from "@/components/SocialProofBar";
 import { SpecializationMatrix } from "@/components/SpecializationMatrix";
+import { ThesisQuotes } from "@/components/ThesisQuotes";
 import { Testimonials } from "@/components/Testimonials";
+import { ZonePerformance } from "@/components/ZonePerformance";
 
 export default function Home() {
   return (
@@ -17,7 +19,9 @@ export default function Home() {
         <Hero />
         <SocialProofBar />
         <SpecializationMatrix />
+        <ThesisQuotes />
         <MarketMetrics />
+        <ZonePerformance />
         <MarketInsights />
         <Testimonials />
         <LeadMagnet />

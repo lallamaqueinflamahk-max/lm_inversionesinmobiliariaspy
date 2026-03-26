@@ -47,7 +47,7 @@ export function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-sm border border-brand-gold/40 bg-transparent px-8 py-3.5 text-xs font-semibold uppercase tracking-[0.16em] text-brand-charcoal transition-all hover:-translate-y-0.5 hover:border-brand-gold hover:bg-brand-olive/10 hover:text-brand-olive focus:outline-none focus:ring-2 focus:ring-brand-gold/25 active:scale-[0.99]"
             >
-              Descargar Reporte de Mercado 2024
+              Descargar Reporte Estratégico 2025
             </a>
           </div>
 

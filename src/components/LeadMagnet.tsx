@@ -37,7 +37,7 @@ export function LeadMagnet() {
     whatsapp: string;
     investorProfile: string;
   }) => {
-    const text = `Hola Liliana. Soy ${data.name}. Perfil: ${data.investorProfile}. Mi WhatsApp es: ${data.whatsapp}. Quiero recibir el Reporte Trimestral de Oportunidades Inmobiliarias.`;
+    const text = `Hola Liliana. Soy ${data.name}. Perfil: ${data.investorProfile}. Mi WhatsApp es: ${data.whatsapp}. Quiero recibir el REPORTE ESTRATÉGICO: MERCADO INMOBILIARIO PARAGUAY 2025 (Q1–Q2).`;
     return `https://wa.me/${WHATSAPP_BUSINESS}?text=${encodeURIComponent(text)}`;
   };
 
@@ -152,11 +152,11 @@ export function LeadMagnet() {
                 id="lead-heading"
                 className="font-serif text-[clamp(1.6rem,2.1vw,2.1rem)] text-brand-charcoal md:text-3xl"
               >
-                Obtén mi Reporte Trimestral de Oportunidades Inmobiliarias
+                Descargá el Reporte 2025: los 5 KPIs que definirán tu rentabilidad este año
               </h2>
               <p className="mt-3 max-w-xl text-sm text-brand-charcoal/75">
-                Dejá tus datos y recibí el PDF con lectura de mercado y
-                oportunidades alineadas a tu perfil de riesgo.
+                Recibí el REPORTE ESTRATÉGICO 2025 (Q1–Q2) con análisis de capital,
+                rendimiento y proyecciones de inversión. Te lo envío por WhatsApp.
               </p>
               <form
                 onSubmit={handleSubmit}
