@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  /* Financial Elite palette (definitiva) */
+  --lm-formal-sage: #7C9271; /* Primario */
+  --lm-rich-bronze: #B29156; /* Secundario (acento) */
+  --lm-stark-white: #FFFFFF; /* Texto en fondos oscuros */
+  --lm-deep-spruce: #122F2F; /* Verde casi negro */
+  --lm-pearl-gray: #E6E6E6; /* Subtítulos / detalles */
+
+  /* Mapeo para las clases Tailwind existentes (brand-*) */
+  --background: #FFFFFF;
+  --foreground: var(--lm-deep-spruce);
+
+  --brand-olive: var(--lm-formal-sage);
+  --brand-olive-dark: #607059; /* hover: oliva más oscura (derivada) */
+  --brand-sage: var(--lm-formal-sage);
+  --brand-gold: var(--lm-rich-bronze);
+  --brand-ivory: #FFFFFF;
+  --brand-charcoal: var(--lm-deep-spruce);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-olive: var(--brand-olive);
+  --color-brand-olive-dark: var(--brand-olive-dark);
+  --color-brand-sage: var(--brand-sage);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-ivory: var(--brand-ivory);
+  --color-brand-charcoal: var(--brand-charcoal);
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, "Times New Roman", serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
